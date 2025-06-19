@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    height: 100vh;
+    align-content: center;
+    background-color:cornflowerblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+}
+
+.card-options{
+    max-width: 700px;
+    box-shadow: 0 10px 60px 1px black;
+    background: url(https://images.unsplash.com/photo-1702177711038-00e700024110?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBjJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D); 
+    background-position: center;
+    border-radius: .5rem;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.card-options button{
+    border: 1px solid #ffffff;
+}
+
+.none{
+    display: none;
+}
+
+.wrapper-select-button{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+select, button, input{
+    color: black;
+    font-weight: bold;
+    padding: .5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    border: none;
+}
+
+input{
+    background-color: #f9f9fb;
+    border-bottom: 1px solid cornflowerblue;
+}
+
+button{
+    background-color: black;
+    color: white;
+    transition: .2s;
+}
+
+button:hover{
+    color: black;
+    background-color: #f9f9fb;
+    border: 1px solid black;
+    transform: scale(102%);
+}
+
+.container-linked-list{
+    display: flex;
+}
+
+.wrapper-node{
+    display: flex;
+    align-items: center;
+}
+
+.node{
+    width: 4rem;
+    height: 4rem;
+    background-color: darkblue;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.line{
+    width: 2rem;
+    height: 2px;;
+    background-color: black;
+}
+
+
+.container-linked-list-add, .container-linked-list-remove{
+    background-color: #f9f9fb;
+    max-width: 700px;
+    padding: 2rem;
+    border-radius: .5rem;
+   /* position: absolute;*/
+    /*top: 5rem;*/
+    box-shadow: 0 1px 15px 1px #000009;
+}
+
+form{
+    display: grid;
+    gap: 1rem;
+}
+
+input:focus-within, select:focus-within{
+    outline: 2px solid cornflowerblue;
+}

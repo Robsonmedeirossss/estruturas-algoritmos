@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #010101;
+    height: 100vh;
+    color: #fffff2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+}
+
+h1{
+    font-size: 3.5rem;
+}
+
+
+.wrapper{
+    width: 70%;
+    background-color: #9956f6;
+    border-radius: .5rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    height: 55%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+
+form{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#button-add{
+    border-radius: .5rem;
+    height: 3rem;
+    width: 20%;
+    background-color: #010101;
+    color: #fffff2;
+    border: none;
+    cursor: pointer;
+    padding: .5rem 2.5rem;
+    font-weight: bold;
+    transition: .3s;
+    font-family: "Poppins", sans-serif;
+}
+
+#button-add:hover{
+    background-color: #fffff2;
+    color: #010101;
+}
+
+input{
+    width: 60%;
+    padding: .5rem;
+    outline: none;
+    border-radius: .5rem;
+    height: 3rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.browsing-history{
+    width: 80%;
+    background-color: #fffff2;
+    height: 5rem;
+    border-radius: .5rem;
+    box-shadow: 12px 12px 2px 1px #010101;
+    display: flex;
+    padding: .5rem;
+    justify-content: space-between;
+    color: #010101;
+    align-items: center;
+    font-weight: bold;
+}
+
+#button-icon-left img, #button-icon-rigth img{
+    width: 50px;
+    height: 50px;
+}
+
+#button-icon-left, #button-icon-rigth{
+    width: min-content;
+    cursor: pointer;
+    border-radius: 100%;
+    background-color: #010101;
+    transition: .3s;
+    border: none;
+    
+}
+
+#button-icon-left:hover, #button-icon-rigth:hover{
+    background-color: #9956f6;
+    transform: translateY(-5%);
+}
+
+.item-marcado{
+    color: #9956f6;
+}
+
